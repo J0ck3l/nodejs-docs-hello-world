@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((request, response) => {
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("TEst nochmal mit Eventgrid");
+    response.end("Test mit Container Erzeugung in Azure aus JenkinsVM.");
 });
 
 const port = process.env.PORT || 1337;
